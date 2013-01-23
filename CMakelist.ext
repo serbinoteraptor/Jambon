@@ -1,0 +1,13 @@
+project(OpenGLDemo)
+
+file(GLOB opengl_src
+     *.cpp
+     Comm/*.cpp
+     SceneGraph/*.cpp
+     ShaderManager/*.cpp
+     Test/*.cpp
+)
+
+add_executable(OpenGLDemo
+     ${opengl_src}
+)

@@ -1,0 +1,1 @@
+/home/dimrok/pers/sg/CMakeFiles/OpenGLDemo.dir
