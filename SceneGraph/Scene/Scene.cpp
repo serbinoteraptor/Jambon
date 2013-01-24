@@ -1,40 +1,46 @@
 #include "Scene.h"
+#include <cstddef>
+
+Scene::Scene()
+{
+  this->_last_added_node = NULL;
+}
 
 bool Scene::Render()
 {
-	m_RootNode.VRenderChildren(this);
+  _root_node.VRenderChildren(this);
 
-	return true;
+  return true;
 }
 
 bool Scene::Update(const double elapsedTime)
 {
-	m_RootNode.VOnUpdate(this, elapsedTime);
-	
-	m_Camera.VOnUpdate(this, elapsedTime);
+  _root_node.VOnUpdate(this, elapsedTime);
 
-	return true;
+  _camera.VOnUpdate(this, elapsedTime);
+
+  return true;
 }
 
 bool Scene::AddNode(ISceneNode * node)
 {
-	m_RootNode.VAddChild(node);
-	m_lastAddedNode = node;
-	return true;
+  _root_node.VAddChild(node);
+  _last_added_node = node;
+  return true;
 }
 
-bool Scene::AddNode(const char * name)
+bool Scene::AddNode(std::string const& name)
 {
-	if (strcmp(name, "Test") == 0)
-	{
-		TestNode * node = new TestNode(
-			-1.0f, -1.0f, 0.0f,
-			1.0f, -1.0f, 0.0f,
-			0.0f,  1.0f, 0.0f);
-		m_RootNode.VAddChild(node);
-		m_lastAddedNode = node;
-		return true;
-	}
-	
-	return false;
+  if (name == "Test")
+  {
+    TestNode * node = new TestNode(
+      -1.0f, -1.0f, 0.0f,
+      1.0f, -1.0f, 0.0f,
+      0.0f,  1.0f, 0.0f);
+    _root_node.VAddChild(node);
+    _last_added_node = node;
+    return true;
+  }
+
+  return false;
 }

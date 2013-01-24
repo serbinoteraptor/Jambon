@@ -1,7 +1,7 @@
 #pragma once
 
-#include "SceneGraph\Interface\ISceneNode.h"
-#include "SceneGraph\Interface\SceneNodeProperties.h"
+#include "SceneGraph/Interface/ISceneNode.h"
+#include "SceneGraph/Interface/SceneNodeProperties.h"
 
 #include <vector>
 #include <iostream>

@@ -33,23 +33,6 @@ namespace glm
 
 #define GLfloat float
 
-template<typename T>
-std::vector<T> const&
-prefiled_vector(T&& value, int count)
-{
-  static std::vector<T> ret;
-  if (ret.size() == count)
-    return ret;
-
-  ret.clear();
-
-  //std::fill_n(ret, count, value);
-  for(int i = 0; i < count; ++i)
-    ret.push_back(value);
-
-  return ret;
-}
-
 struct Sommet
 {
   int v, vn, vt;
@@ -106,8 +89,8 @@ struct Polygon
 
 public:
   Polygon(std::vector<int> const& v,
-          std::vector<int> const& vt = prefiled_vector(-1, i),
-          std::vector<int> const& vn = prefiled_vector(-1, i))
+          std::vector<int> const& vt = std::vector<int>(i, -1),
+          std::vector<int> const& vn = std::vector<int>(i, -1))
   {
     assert(v.size() == i);
     assert(vn.size() == i);
@@ -127,8 +110,8 @@ typedef Polygon<3> Triangle;
 
 class Mesh
 {
-  typedef std::vector<glm::detail::tvec3<GLfloat>> Vvec3;
-  typedef std::vector<glm::detail::tvec2<GLfloat>> Vvec2;
+  typedef std::vector< glm::detail::tvec3<GLfloat> > Vvec3;
+  typedef std::vector< glm::detail::tvec2<GLfloat> > Vvec2;
 
 private:
   std::string _name;
@@ -167,9 +150,3 @@ public:
   Vvec2 const&
   Textures() const { return this->_textures; }
 };
-
-int
-main(int argc, char** argv)
-{
-
-}

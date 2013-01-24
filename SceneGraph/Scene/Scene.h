@@ -7,17 +7,22 @@
 
 class Scene
 {
+public:
+  Scene();
+  virtual ~Scene() {};
+
 private:
-	CameraNode	 m_Camera;
-	RootNode	 m_RootNode;
-	ISceneNode	*m_lastAddedNode;
+  CameraNode  _camera;
+  RootNode    _root_node;
+  // _last_added_node point on the last element which will be detroyed.
+  ISceneNode* _last_added_node;
 
 public :
-	CameraNode & GetCamera (void) { return m_Camera; }
-	bool Render();
-	bool Update(const double elapsedTime);
-	bool AddNode(ISceneNode * node);
-	bool AddNode(const char * name);
+  CameraNode & GetCamera (void) { return _camera; }
+  bool Render();
+  bool Update(const double elapsedTime);
+  bool AddNode(ISceneNode * node);
+  bool AddNode(std::string const& name);
 
-	ISceneNode * GetLastAddedNode () { return m_lastAddedNode; }
+  ISceneNode * GetLastAddedNode () { assert(this->_last_added_node != NULL); return _last_added_node; }
 };

@@ -1,5 +1,5 @@
 #include "TestNode.h"
-#include "SceneGraph\Scene\Scene.h"
+#include "SceneGraph/Scene/Scene.h"
 
 TestNode::TestNode(GLfloat xx, GLfloat xy, GLfloat xz, GLfloat yx, GLfloat yy, GLfloat yz, GLfloat zx, GLfloat zy, GLfloat zz) :
   SceneNode("Triangle", SceneNodeProperties::RenderPass_Actor, glm::mat4(1.0f))
@@ -33,7 +33,8 @@ TestNode::TestNode(GLfloat xx, GLfloat xy, GLfloat xz, GLfloat yx, GLfloat yy, G
   glBufferData(GL_ARRAY_BUFFER, sizeof(color), color, GL_STATIC_DRAW);
 }
 
-bool TestNode::VRender(Scene * pScene)
+bool
+TestNode::VRender(Scene * pScene)
 {
   glUseProgram(m_programID);
 
@@ -76,6 +77,7 @@ bool TestNode::VRender(Scene * pScene)
   return true;
 }
 
+void
 TestNode::VOnUpdate(Scene * pScene, const double elapsedTime)
 {
   (void) pScene;

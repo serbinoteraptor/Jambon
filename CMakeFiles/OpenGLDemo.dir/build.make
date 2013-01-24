@@ -121,9 +121,170 @@ CMakeFiles/OpenGLDemo.dir/Comm/shader.cpp.o.provides: CMakeFiles/OpenGLDemo.dir/
 
 CMakeFiles/OpenGLDemo.dir/Comm/shader.cpp.o.provides.build: CMakeFiles/OpenGLDemo.dir/Comm/shader.cpp.o
 
+CMakeFiles/OpenGLDemo.dir/SceneGraph/Scene/Scene.cpp.o: CMakeFiles/OpenGLDemo.dir/flags.make
+CMakeFiles/OpenGLDemo.dir/SceneGraph/Scene/Scene.cpp.o: SceneGraph/Scene/Scene.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/dimrok/pers/sg/CMakeFiles $(CMAKE_PROGRESS_4)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/OpenGLDemo.dir/SceneGraph/Scene/Scene.cpp.o"
+	/usr/lib/ccache/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/OpenGLDemo.dir/SceneGraph/Scene/Scene.cpp.o -c /home/dimrok/pers/sg/SceneGraph/Scene/Scene.cpp
+
+CMakeFiles/OpenGLDemo.dir/SceneGraph/Scene/Scene.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpenGLDemo.dir/SceneGraph/Scene/Scene.cpp.i"
+	/usr/lib/ccache/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/dimrok/pers/sg/SceneGraph/Scene/Scene.cpp > CMakeFiles/OpenGLDemo.dir/SceneGraph/Scene/Scene.cpp.i
+
+CMakeFiles/OpenGLDemo.dir/SceneGraph/Scene/Scene.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpenGLDemo.dir/SceneGraph/Scene/Scene.cpp.s"
+	/usr/lib/ccache/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/dimrok/pers/sg/SceneGraph/Scene/Scene.cpp -o CMakeFiles/OpenGLDemo.dir/SceneGraph/Scene/Scene.cpp.s
+
+CMakeFiles/OpenGLDemo.dir/SceneGraph/Scene/Scene.cpp.o.requires:
+.PHONY : CMakeFiles/OpenGLDemo.dir/SceneGraph/Scene/Scene.cpp.o.requires
+
+CMakeFiles/OpenGLDemo.dir/SceneGraph/Scene/Scene.cpp.o.provides: CMakeFiles/OpenGLDemo.dir/SceneGraph/Scene/Scene.cpp.o.requires
+	$(MAKE) -f CMakeFiles/OpenGLDemo.dir/build.make CMakeFiles/OpenGLDemo.dir/SceneGraph/Scene/Scene.cpp.o.provides.build
+.PHONY : CMakeFiles/OpenGLDemo.dir/SceneGraph/Scene/Scene.cpp.o.provides
+
+CMakeFiles/OpenGLDemo.dir/SceneGraph/Scene/Scene.cpp.o.provides.build: CMakeFiles/OpenGLDemo.dir/SceneGraph/Scene/Scene.cpp.o
+
+CMakeFiles/OpenGLDemo.dir/SceneGraph/Node/SceneNode.cpp.o: CMakeFiles/OpenGLDemo.dir/flags.make
+CMakeFiles/OpenGLDemo.dir/SceneGraph/Node/SceneNode.cpp.o: SceneGraph/Node/SceneNode.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/dimrok/pers/sg/CMakeFiles $(CMAKE_PROGRESS_5)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/OpenGLDemo.dir/SceneGraph/Node/SceneNode.cpp.o"
+	/usr/lib/ccache/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/OpenGLDemo.dir/SceneGraph/Node/SceneNode.cpp.o -c /home/dimrok/pers/sg/SceneGraph/Node/SceneNode.cpp
+
+CMakeFiles/OpenGLDemo.dir/SceneGraph/Node/SceneNode.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpenGLDemo.dir/SceneGraph/Node/SceneNode.cpp.i"
+	/usr/lib/ccache/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/dimrok/pers/sg/SceneGraph/Node/SceneNode.cpp > CMakeFiles/OpenGLDemo.dir/SceneGraph/Node/SceneNode.cpp.i
+
+CMakeFiles/OpenGLDemo.dir/SceneGraph/Node/SceneNode.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpenGLDemo.dir/SceneGraph/Node/SceneNode.cpp.s"
+	/usr/lib/ccache/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/dimrok/pers/sg/SceneGraph/Node/SceneNode.cpp -o CMakeFiles/OpenGLDemo.dir/SceneGraph/Node/SceneNode.cpp.s
+
+CMakeFiles/OpenGLDemo.dir/SceneGraph/Node/SceneNode.cpp.o.requires:
+.PHONY : CMakeFiles/OpenGLDemo.dir/SceneGraph/Node/SceneNode.cpp.o.requires
+
+CMakeFiles/OpenGLDemo.dir/SceneGraph/Node/SceneNode.cpp.o.provides: CMakeFiles/OpenGLDemo.dir/SceneGraph/Node/SceneNode.cpp.o.requires
+	$(MAKE) -f CMakeFiles/OpenGLDemo.dir/build.make CMakeFiles/OpenGLDemo.dir/SceneGraph/Node/SceneNode.cpp.o.provides.build
+.PHONY : CMakeFiles/OpenGLDemo.dir/SceneGraph/Node/SceneNode.cpp.o.provides
+
+CMakeFiles/OpenGLDemo.dir/SceneGraph/Node/SceneNode.cpp.o.provides.build: CMakeFiles/OpenGLDemo.dir/SceneGraph/Node/SceneNode.cpp.o
+
+CMakeFiles/OpenGLDemo.dir/SceneGraph/Node/RootNode.cpp.o: CMakeFiles/OpenGLDemo.dir/flags.make
+CMakeFiles/OpenGLDemo.dir/SceneGraph/Node/RootNode.cpp.o: SceneGraph/Node/RootNode.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/dimrok/pers/sg/CMakeFiles $(CMAKE_PROGRESS_6)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/OpenGLDemo.dir/SceneGraph/Node/RootNode.cpp.o"
+	/usr/lib/ccache/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/OpenGLDemo.dir/SceneGraph/Node/RootNode.cpp.o -c /home/dimrok/pers/sg/SceneGraph/Node/RootNode.cpp
+
+CMakeFiles/OpenGLDemo.dir/SceneGraph/Node/RootNode.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpenGLDemo.dir/SceneGraph/Node/RootNode.cpp.i"
+	/usr/lib/ccache/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/dimrok/pers/sg/SceneGraph/Node/RootNode.cpp > CMakeFiles/OpenGLDemo.dir/SceneGraph/Node/RootNode.cpp.i
+
+CMakeFiles/OpenGLDemo.dir/SceneGraph/Node/RootNode.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpenGLDemo.dir/SceneGraph/Node/RootNode.cpp.s"
+	/usr/lib/ccache/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/dimrok/pers/sg/SceneGraph/Node/RootNode.cpp -o CMakeFiles/OpenGLDemo.dir/SceneGraph/Node/RootNode.cpp.s
+
+CMakeFiles/OpenGLDemo.dir/SceneGraph/Node/RootNode.cpp.o.requires:
+.PHONY : CMakeFiles/OpenGLDemo.dir/SceneGraph/Node/RootNode.cpp.o.requires
+
+CMakeFiles/OpenGLDemo.dir/SceneGraph/Node/RootNode.cpp.o.provides: CMakeFiles/OpenGLDemo.dir/SceneGraph/Node/RootNode.cpp.o.requires
+	$(MAKE) -f CMakeFiles/OpenGLDemo.dir/build.make CMakeFiles/OpenGLDemo.dir/SceneGraph/Node/RootNode.cpp.o.provides.build
+.PHONY : CMakeFiles/OpenGLDemo.dir/SceneGraph/Node/RootNode.cpp.o.provides
+
+CMakeFiles/OpenGLDemo.dir/SceneGraph/Node/RootNode.cpp.o.provides.build: CMakeFiles/OpenGLDemo.dir/SceneGraph/Node/RootNode.cpp.o
+
+CMakeFiles/OpenGLDemo.dir/SceneGraph/Node/CameraNode.cpp.o: CMakeFiles/OpenGLDemo.dir/flags.make
+CMakeFiles/OpenGLDemo.dir/SceneGraph/Node/CameraNode.cpp.o: SceneGraph/Node/CameraNode.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/dimrok/pers/sg/CMakeFiles $(CMAKE_PROGRESS_7)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/OpenGLDemo.dir/SceneGraph/Node/CameraNode.cpp.o"
+	/usr/lib/ccache/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/OpenGLDemo.dir/SceneGraph/Node/CameraNode.cpp.o -c /home/dimrok/pers/sg/SceneGraph/Node/CameraNode.cpp
+
+CMakeFiles/OpenGLDemo.dir/SceneGraph/Node/CameraNode.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpenGLDemo.dir/SceneGraph/Node/CameraNode.cpp.i"
+	/usr/lib/ccache/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/dimrok/pers/sg/SceneGraph/Node/CameraNode.cpp > CMakeFiles/OpenGLDemo.dir/SceneGraph/Node/CameraNode.cpp.i
+
+CMakeFiles/OpenGLDemo.dir/SceneGraph/Node/CameraNode.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpenGLDemo.dir/SceneGraph/Node/CameraNode.cpp.s"
+	/usr/lib/ccache/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/dimrok/pers/sg/SceneGraph/Node/CameraNode.cpp -o CMakeFiles/OpenGLDemo.dir/SceneGraph/Node/CameraNode.cpp.s
+
+CMakeFiles/OpenGLDemo.dir/SceneGraph/Node/CameraNode.cpp.o.requires:
+.PHONY : CMakeFiles/OpenGLDemo.dir/SceneGraph/Node/CameraNode.cpp.o.requires
+
+CMakeFiles/OpenGLDemo.dir/SceneGraph/Node/CameraNode.cpp.o.provides: CMakeFiles/OpenGLDemo.dir/SceneGraph/Node/CameraNode.cpp.o.requires
+	$(MAKE) -f CMakeFiles/OpenGLDemo.dir/build.make CMakeFiles/OpenGLDemo.dir/SceneGraph/Node/CameraNode.cpp.o.provides.build
+.PHONY : CMakeFiles/OpenGLDemo.dir/SceneGraph/Node/CameraNode.cpp.o.provides
+
+CMakeFiles/OpenGLDemo.dir/SceneGraph/Node/CameraNode.cpp.o.provides.build: CMakeFiles/OpenGLDemo.dir/SceneGraph/Node/CameraNode.cpp.o
+
+CMakeFiles/OpenGLDemo.dir/SceneGraph/Node/Test/GenericNode.cpp.o: CMakeFiles/OpenGLDemo.dir/flags.make
+CMakeFiles/OpenGLDemo.dir/SceneGraph/Node/Test/GenericNode.cpp.o: SceneGraph/Node/Test/GenericNode.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/dimrok/pers/sg/CMakeFiles $(CMAKE_PROGRESS_8)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/OpenGLDemo.dir/SceneGraph/Node/Test/GenericNode.cpp.o"
+	/usr/lib/ccache/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/OpenGLDemo.dir/SceneGraph/Node/Test/GenericNode.cpp.o -c /home/dimrok/pers/sg/SceneGraph/Node/Test/GenericNode.cpp
+
+CMakeFiles/OpenGLDemo.dir/SceneGraph/Node/Test/GenericNode.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpenGLDemo.dir/SceneGraph/Node/Test/GenericNode.cpp.i"
+	/usr/lib/ccache/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/dimrok/pers/sg/SceneGraph/Node/Test/GenericNode.cpp > CMakeFiles/OpenGLDemo.dir/SceneGraph/Node/Test/GenericNode.cpp.i
+
+CMakeFiles/OpenGLDemo.dir/SceneGraph/Node/Test/GenericNode.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpenGLDemo.dir/SceneGraph/Node/Test/GenericNode.cpp.s"
+	/usr/lib/ccache/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/dimrok/pers/sg/SceneGraph/Node/Test/GenericNode.cpp -o CMakeFiles/OpenGLDemo.dir/SceneGraph/Node/Test/GenericNode.cpp.s
+
+CMakeFiles/OpenGLDemo.dir/SceneGraph/Node/Test/GenericNode.cpp.o.requires:
+.PHONY : CMakeFiles/OpenGLDemo.dir/SceneGraph/Node/Test/GenericNode.cpp.o.requires
+
+CMakeFiles/OpenGLDemo.dir/SceneGraph/Node/Test/GenericNode.cpp.o.provides: CMakeFiles/OpenGLDemo.dir/SceneGraph/Node/Test/GenericNode.cpp.o.requires
+	$(MAKE) -f CMakeFiles/OpenGLDemo.dir/build.make CMakeFiles/OpenGLDemo.dir/SceneGraph/Node/Test/GenericNode.cpp.o.provides.build
+.PHONY : CMakeFiles/OpenGLDemo.dir/SceneGraph/Node/Test/GenericNode.cpp.o.provides
+
+CMakeFiles/OpenGLDemo.dir/SceneGraph/Node/Test/GenericNode.cpp.o.provides.build: CMakeFiles/OpenGLDemo.dir/SceneGraph/Node/Test/GenericNode.cpp.o
+
+CMakeFiles/OpenGLDemo.dir/SceneGraph/Node/Test/TestNode.cpp.o: CMakeFiles/OpenGLDemo.dir/flags.make
+CMakeFiles/OpenGLDemo.dir/SceneGraph/Node/Test/TestNode.cpp.o: SceneGraph/Node/Test/TestNode.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/dimrok/pers/sg/CMakeFiles $(CMAKE_PROGRESS_9)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/OpenGLDemo.dir/SceneGraph/Node/Test/TestNode.cpp.o"
+	/usr/lib/ccache/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/OpenGLDemo.dir/SceneGraph/Node/Test/TestNode.cpp.o -c /home/dimrok/pers/sg/SceneGraph/Node/Test/TestNode.cpp
+
+CMakeFiles/OpenGLDemo.dir/SceneGraph/Node/Test/TestNode.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpenGLDemo.dir/SceneGraph/Node/Test/TestNode.cpp.i"
+	/usr/lib/ccache/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/dimrok/pers/sg/SceneGraph/Node/Test/TestNode.cpp > CMakeFiles/OpenGLDemo.dir/SceneGraph/Node/Test/TestNode.cpp.i
+
+CMakeFiles/OpenGLDemo.dir/SceneGraph/Node/Test/TestNode.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpenGLDemo.dir/SceneGraph/Node/Test/TestNode.cpp.s"
+	/usr/lib/ccache/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/dimrok/pers/sg/SceneGraph/Node/Test/TestNode.cpp -o CMakeFiles/OpenGLDemo.dir/SceneGraph/Node/Test/TestNode.cpp.s
+
+CMakeFiles/OpenGLDemo.dir/SceneGraph/Node/Test/TestNode.cpp.o.requires:
+.PHONY : CMakeFiles/OpenGLDemo.dir/SceneGraph/Node/Test/TestNode.cpp.o.requires
+
+CMakeFiles/OpenGLDemo.dir/SceneGraph/Node/Test/TestNode.cpp.o.provides: CMakeFiles/OpenGLDemo.dir/SceneGraph/Node/Test/TestNode.cpp.o.requires
+	$(MAKE) -f CMakeFiles/OpenGLDemo.dir/build.make CMakeFiles/OpenGLDemo.dir/SceneGraph/Node/Test/TestNode.cpp.o.provides.build
+.PHONY : CMakeFiles/OpenGLDemo.dir/SceneGraph/Node/Test/TestNode.cpp.o.provides
+
+CMakeFiles/OpenGLDemo.dir/SceneGraph/Node/Test/TestNode.cpp.o.provides.build: CMakeFiles/OpenGLDemo.dir/SceneGraph/Node/Test/TestNode.cpp.o
+
+CMakeFiles/OpenGLDemo.dir/SceneGraph/Node/Test/ObjParser.cpp.o: CMakeFiles/OpenGLDemo.dir/flags.make
+CMakeFiles/OpenGLDemo.dir/SceneGraph/Node/Test/ObjParser.cpp.o: SceneGraph/Node/Test/ObjParser.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/dimrok/pers/sg/CMakeFiles $(CMAKE_PROGRESS_10)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/OpenGLDemo.dir/SceneGraph/Node/Test/ObjParser.cpp.o"
+	/usr/lib/ccache/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/OpenGLDemo.dir/SceneGraph/Node/Test/ObjParser.cpp.o -c /home/dimrok/pers/sg/SceneGraph/Node/Test/ObjParser.cpp
+
+CMakeFiles/OpenGLDemo.dir/SceneGraph/Node/Test/ObjParser.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpenGLDemo.dir/SceneGraph/Node/Test/ObjParser.cpp.i"
+	/usr/lib/ccache/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/dimrok/pers/sg/SceneGraph/Node/Test/ObjParser.cpp > CMakeFiles/OpenGLDemo.dir/SceneGraph/Node/Test/ObjParser.cpp.i
+
+CMakeFiles/OpenGLDemo.dir/SceneGraph/Node/Test/ObjParser.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpenGLDemo.dir/SceneGraph/Node/Test/ObjParser.cpp.s"
+	/usr/lib/ccache/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/dimrok/pers/sg/SceneGraph/Node/Test/ObjParser.cpp -o CMakeFiles/OpenGLDemo.dir/SceneGraph/Node/Test/ObjParser.cpp.s
+
+CMakeFiles/OpenGLDemo.dir/SceneGraph/Node/Test/ObjParser.cpp.o.requires:
+.PHONY : CMakeFiles/OpenGLDemo.dir/SceneGraph/Node/Test/ObjParser.cpp.o.requires
+
+CMakeFiles/OpenGLDemo.dir/SceneGraph/Node/Test/ObjParser.cpp.o.provides: CMakeFiles/OpenGLDemo.dir/SceneGraph/Node/Test/ObjParser.cpp.o.requires
+	$(MAKE) -f CMakeFiles/OpenGLDemo.dir/build.make CMakeFiles/OpenGLDemo.dir/SceneGraph/Node/Test/ObjParser.cpp.o.provides.build
+.PHONY : CMakeFiles/OpenGLDemo.dir/SceneGraph/Node/Test/ObjParser.cpp.o.provides
+
+CMakeFiles/OpenGLDemo.dir/SceneGraph/Node/Test/ObjParser.cpp.o.provides.build: CMakeFiles/OpenGLDemo.dir/SceneGraph/Node/Test/ObjParser.cpp.o
+
 CMakeFiles/OpenGLDemo.dir/ShaderManager/shader.cpp.o: CMakeFiles/OpenGLDemo.dir/flags.make
 CMakeFiles/OpenGLDemo.dir/ShaderManager/shader.cpp.o: ShaderManager/shader.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/dimrok/pers/sg/CMakeFiles $(CMAKE_PROGRESS_4)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/dimrok/pers/sg/CMakeFiles $(CMAKE_PROGRESS_11)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/OpenGLDemo.dir/ShaderManager/shader.cpp.o"
 	/usr/lib/ccache/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/OpenGLDemo.dir/ShaderManager/shader.cpp.o -c /home/dimrok/pers/sg/ShaderManager/shader.cpp
 
@@ -146,7 +307,7 @@ CMakeFiles/OpenGLDemo.dir/ShaderManager/shader.cpp.o.provides.build: CMakeFiles/
 
 CMakeFiles/OpenGLDemo.dir/ShaderManager/ShaderManager.cpp.o: CMakeFiles/OpenGLDemo.dir/flags.make
 CMakeFiles/OpenGLDemo.dir/ShaderManager/ShaderManager.cpp.o: ShaderManager/ShaderManager.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/dimrok/pers/sg/CMakeFiles $(CMAKE_PROGRESS_5)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/dimrok/pers/sg/CMakeFiles $(CMAKE_PROGRESS_12)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/OpenGLDemo.dir/ShaderManager/ShaderManager.cpp.o"
 	/usr/lib/ccache/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/OpenGLDemo.dir/ShaderManager/ShaderManager.cpp.o -c /home/dimrok/pers/sg/ShaderManager/ShaderManager.cpp
 
@@ -169,7 +330,7 @@ CMakeFiles/OpenGLDemo.dir/ShaderManager/ShaderManager.cpp.o.provides.build: CMak
 
 CMakeFiles/OpenGLDemo.dir/Test/Mesh.cpp.o: CMakeFiles/OpenGLDemo.dir/flags.make
 CMakeFiles/OpenGLDemo.dir/Test/Mesh.cpp.o: Test/Mesh.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/dimrok/pers/sg/CMakeFiles $(CMAKE_PROGRESS_6)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/dimrok/pers/sg/CMakeFiles $(CMAKE_PROGRESS_13)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/OpenGLDemo.dir/Test/Mesh.cpp.o"
 	/usr/lib/ccache/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/OpenGLDemo.dir/Test/Mesh.cpp.o -c /home/dimrok/pers/sg/Test/Mesh.cpp
 
@@ -192,7 +353,7 @@ CMakeFiles/OpenGLDemo.dir/Test/Mesh.cpp.o.provides.build: CMakeFiles/OpenGLDemo.
 
 CMakeFiles/OpenGLDemo.dir/Test/cTriangle.cpp.o: CMakeFiles/OpenGLDemo.dir/flags.make
 CMakeFiles/OpenGLDemo.dir/Test/cTriangle.cpp.o: Test/cTriangle.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/dimrok/pers/sg/CMakeFiles $(CMAKE_PROGRESS_7)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/dimrok/pers/sg/CMakeFiles $(CMAKE_PROGRESS_14)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/OpenGLDemo.dir/Test/cTriangle.cpp.o"
 	/usr/lib/ccache/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/OpenGLDemo.dir/Test/cTriangle.cpp.o -c /home/dimrok/pers/sg/Test/cTriangle.cpp
 
@@ -215,7 +376,7 @@ CMakeFiles/OpenGLDemo.dir/Test/cTriangle.cpp.o.provides.build: CMakeFiles/OpenGL
 
 CMakeFiles/OpenGLDemo.dir/Test/material.cpp.o: CMakeFiles/OpenGLDemo.dir/flags.make
 CMakeFiles/OpenGLDemo.dir/Test/material.cpp.o: Test/material.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/dimrok/pers/sg/CMakeFiles $(CMAKE_PROGRESS_8)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/dimrok/pers/sg/CMakeFiles $(CMAKE_PROGRESS_15)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/OpenGLDemo.dir/Test/material.cpp.o"
 	/usr/lib/ccache/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/OpenGLDemo.dir/Test/material.cpp.o -c /home/dimrok/pers/sg/Test/material.cpp
 
@@ -241,6 +402,13 @@ OpenGLDemo_OBJECTS = \
 "CMakeFiles/OpenGLDemo.dir/playground.cpp.o" \
 "CMakeFiles/OpenGLDemo.dir/GLManager.cpp.o" \
 "CMakeFiles/OpenGLDemo.dir/Comm/shader.cpp.o" \
+"CMakeFiles/OpenGLDemo.dir/SceneGraph/Scene/Scene.cpp.o" \
+"CMakeFiles/OpenGLDemo.dir/SceneGraph/Node/SceneNode.cpp.o" \
+"CMakeFiles/OpenGLDemo.dir/SceneGraph/Node/RootNode.cpp.o" \
+"CMakeFiles/OpenGLDemo.dir/SceneGraph/Node/CameraNode.cpp.o" \
+"CMakeFiles/OpenGLDemo.dir/SceneGraph/Node/Test/GenericNode.cpp.o" \
+"CMakeFiles/OpenGLDemo.dir/SceneGraph/Node/Test/TestNode.cpp.o" \
+"CMakeFiles/OpenGLDemo.dir/SceneGraph/Node/Test/ObjParser.cpp.o" \
 "CMakeFiles/OpenGLDemo.dir/ShaderManager/shader.cpp.o" \
 "CMakeFiles/OpenGLDemo.dir/ShaderManager/ShaderManager.cpp.o" \
 "CMakeFiles/OpenGLDemo.dir/Test/Mesh.cpp.o" \
@@ -253,12 +421,27 @@ OpenGLDemo_EXTERNAL_OBJECTS =
 OpenGLDemo: CMakeFiles/OpenGLDemo.dir/playground.cpp.o
 OpenGLDemo: CMakeFiles/OpenGLDemo.dir/GLManager.cpp.o
 OpenGLDemo: CMakeFiles/OpenGLDemo.dir/Comm/shader.cpp.o
+OpenGLDemo: CMakeFiles/OpenGLDemo.dir/SceneGraph/Scene/Scene.cpp.o
+OpenGLDemo: CMakeFiles/OpenGLDemo.dir/SceneGraph/Node/SceneNode.cpp.o
+OpenGLDemo: CMakeFiles/OpenGLDemo.dir/SceneGraph/Node/RootNode.cpp.o
+OpenGLDemo: CMakeFiles/OpenGLDemo.dir/SceneGraph/Node/CameraNode.cpp.o
+OpenGLDemo: CMakeFiles/OpenGLDemo.dir/SceneGraph/Node/Test/GenericNode.cpp.o
+OpenGLDemo: CMakeFiles/OpenGLDemo.dir/SceneGraph/Node/Test/TestNode.cpp.o
+OpenGLDemo: CMakeFiles/OpenGLDemo.dir/SceneGraph/Node/Test/ObjParser.cpp.o
 OpenGLDemo: CMakeFiles/OpenGLDemo.dir/ShaderManager/shader.cpp.o
 OpenGLDemo: CMakeFiles/OpenGLDemo.dir/ShaderManager/ShaderManager.cpp.o
 OpenGLDemo: CMakeFiles/OpenGLDemo.dir/Test/Mesh.cpp.o
 OpenGLDemo: CMakeFiles/OpenGLDemo.dir/Test/cTriangle.cpp.o
 OpenGLDemo: CMakeFiles/OpenGLDemo.dir/Test/material.cpp.o
 OpenGLDemo: CMakeFiles/OpenGLDemo.dir/build.make
+OpenGLDemo: /usr/local/lib64/libglfw.so
+OpenGLDemo: /usr/lib64/libGLEW.so
+OpenGLDemo: /usr/lib64/libGLU.so
+OpenGLDemo: /usr/lib64/libGL.so
+OpenGLDemo: /usr/lib64/libSM.so
+OpenGLDemo: /usr/lib64/libICE.so
+OpenGLDemo: /usr/lib64/libX11.so
+OpenGLDemo: /usr/lib64/libXext.so
 OpenGLDemo: CMakeFiles/OpenGLDemo.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX executable OpenGLDemo"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/OpenGLDemo.dir/link.txt --verbose=$(VERBOSE)
@@ -270,6 +453,13 @@ CMakeFiles/OpenGLDemo.dir/build: OpenGLDemo
 CMakeFiles/OpenGLDemo.dir/requires: CMakeFiles/OpenGLDemo.dir/playground.cpp.o.requires
 CMakeFiles/OpenGLDemo.dir/requires: CMakeFiles/OpenGLDemo.dir/GLManager.cpp.o.requires
 CMakeFiles/OpenGLDemo.dir/requires: CMakeFiles/OpenGLDemo.dir/Comm/shader.cpp.o.requires
+CMakeFiles/OpenGLDemo.dir/requires: CMakeFiles/OpenGLDemo.dir/SceneGraph/Scene/Scene.cpp.o.requires
+CMakeFiles/OpenGLDemo.dir/requires: CMakeFiles/OpenGLDemo.dir/SceneGraph/Node/SceneNode.cpp.o.requires
+CMakeFiles/OpenGLDemo.dir/requires: CMakeFiles/OpenGLDemo.dir/SceneGraph/Node/RootNode.cpp.o.requires
+CMakeFiles/OpenGLDemo.dir/requires: CMakeFiles/OpenGLDemo.dir/SceneGraph/Node/CameraNode.cpp.o.requires
+CMakeFiles/OpenGLDemo.dir/requires: CMakeFiles/OpenGLDemo.dir/SceneGraph/Node/Test/GenericNode.cpp.o.requires
+CMakeFiles/OpenGLDemo.dir/requires: CMakeFiles/OpenGLDemo.dir/SceneGraph/Node/Test/TestNode.cpp.o.requires
+CMakeFiles/OpenGLDemo.dir/requires: CMakeFiles/OpenGLDemo.dir/SceneGraph/Node/Test/ObjParser.cpp.o.requires
 CMakeFiles/OpenGLDemo.dir/requires: CMakeFiles/OpenGLDemo.dir/ShaderManager/shader.cpp.o.requires
 CMakeFiles/OpenGLDemo.dir/requires: CMakeFiles/OpenGLDemo.dir/ShaderManager/ShaderManager.cpp.o.requires
 CMakeFiles/OpenGLDemo.dir/requires: CMakeFiles/OpenGLDemo.dir/Test/Mesh.cpp.o.requires

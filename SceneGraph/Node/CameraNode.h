@@ -1,7 +1,7 @@
 #pragma once
 
 #include <GLHeaders.h>
-#include "SceneGraph\Node\SceneNode.h"
+#include "SceneGraph/Node/SceneNode.h"
 
 class CameraNode : public SceneNode
 {

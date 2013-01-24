@@ -1,6 +1,6 @@
 #pragma once
 
-#include <SceneGraph\Node\SceneNode.h>
+#include <SceneGraph/Node/SceneNode.h>
 
 class TestNode : public SceneNode
 {
@@ -15,4 +15,7 @@ protected:
 public:
   TestNode(GLfloat xx, GLfloat xy, GLfloat xz, GLfloat yx, GLfloat yy, GLfloat yz, GLfloat zx, GLfloat zy, GLfloat zz);
   ~TestNode();
+
+  bool VRender(Scene * pScene) override;
+  void VOnUpdate(Scene * pScene, const double elapsedTime) override;
 };

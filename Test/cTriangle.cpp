@@ -1,5 +1,7 @@
 #include "cTriangle.h"
 
+#include <cstring>
+
 cTriangle::cTriangle(GLfloat xx, GLfloat xy, GLfloat xz, GLfloat yx, GLfloat yy, GLfloat yz, GLfloat zx, GLfloat zy, GLfloat zz)
 {
   glGenBuffers(1, &vertexBuffer);
