@@ -15,9 +15,16 @@ if (NOT OPENGL_FOUND)
   message (FATAL_ERROR "OpengGL not found!")
 endif ()
 
+
 find_package (GLEW)
 if (NOT GLEW_FOUND)
   message (FATAL_ERROR "GLEW not found!")
+endif ()
+
+
+find_package (GLU)
+if (NOT GLU_FOUND)
+  message (FATAL_ERROR "GLU not found!")
 endif ()
 
 find_package (GLFW)
@@ -28,7 +35,8 @@ endif ()
 set(GL_LIBS
     ${GLFW_LIBRARY}
     ${GLEW_LIBRARY}
-    ${OPENGL_LIBRARY})
+    ${OPENGL_LIBRARY}
+    ${GLU_LIBRARY})
 
 file(GLOB opengl_src
      *.cpp
