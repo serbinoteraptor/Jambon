@@ -1,6 +1,6 @@
 #pragma once
 
-#include <GLHeaders.h>
+#include <GLHeaders.hh>
 
 #include <vector>
 
@@ -19,6 +19,7 @@ public:
   {
     this->vertices.push_back(glm::detail::tvec3<GLfloat>(x, y, z));
   }
+
   void AddVertex(glm::detail::tvec3<GLfloat> const& v)
   {
     this->vertices.push_back(v);
@@ -28,6 +29,7 @@ public:
   {
     this->normales.push_back(glm::detail::tvec3<GLfloat>(x, y, z));
   }
+
   void AddNormal(glm::detail::tvec3<GLfloat> const& v)
   {
     this->normales.push_back(v);
@@ -37,6 +39,7 @@ public:
   {
     this->textures.push_back(glm::detail::tvec2<GLfloat>(u, v));
   }
+
   void AddTexture(glm::detail::tvec2<GLfloat> const& v)
   {
     this->textures.push_back(v);
@@ -45,4 +48,4 @@ public:
   Vtvec3 const& GetVerticles() const { return this->vertices; }
   Vtvec3 const& GetNormales() const { return this->normales; }
   Vtvec2 const& GetTextures() const { return this->textures; }
-}
+};

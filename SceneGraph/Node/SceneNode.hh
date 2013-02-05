@@ -1,7 +1,7 @@
 #pragma once
 
-#include "SceneGraph/Interface/ISceneNode.h"
-#include "SceneGraph/Interface/SceneNodeProperties.h"
+#include "SceneGraph/Interface/ISceneNode.hh"
+#include "SceneGraph/Interface/SceneNodeProperties.hh"
 
 #include <vector>
 #include <iostream>
@@ -12,12 +12,12 @@ typedef std::vector<ISceneNode*> SceneNodeList;
 
 class SceneNode : public ISceneNode
 {
-  //	Allow Scene to access every SceneNode's member, even the private ones.
+  //	Allow Scene to access every SceneNode's member, even .hhe private ones.
   friend class Scene;
 
 protected :
-  SceneNodeList	       m_Children;	//	List of the node children.
-  SceneNode	      *m_pParent;		//	Parent in the SceneGraph.
+  SceneNodeList	       m_children;	//	List of the node .hhildren.
+  SceneNode	      *m_pParent;		//	Parent in .hhe SceneGra.hh.
   SceneNodeProperties  m_Props;		//	Node properties.
 
 public :
@@ -32,21 +32,23 @@ public :
     VSetTransform(to);
   }
 
+  virtual ~SceneNode();
+
   //	Getters.
   virtual const SceneNodeProperties * const VGetPorps() const { return &m_Props; }
 
   //	Update loop.
   virtual void VOnUpdate(Scene * pScene, const double elapsedTime);
 
-  //	Render methods.
+  //	Render me.hhods.
   virtual bool VIsVisible(Scene * pScene) const;
   virtual bool VPreRender(Scene * pScene);
   virtual bool VRender(Scene * pScene);
   virtual bool VRenderChildren(Scene * pScene);
   virtual bool VPostRender(Scene * pScene);
 
-  //	Scene graph management.
-  virtual bool VAddChild(ISceneNode * kid);
+  //	Scene gra.hh management.
+  virtual bool VAddChild(ISceneNode* kid);
 
   //	Transformations.
   virtual void VSetTransform(const glm::mat4 & to) { m_Props.Transform(to); };

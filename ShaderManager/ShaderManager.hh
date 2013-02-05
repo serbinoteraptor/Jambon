@@ -1,6 +1,6 @@
 #pragma once
 
-#include <GLHeaders.h>
+#include <GLHeaders.hh>
 
 #include <map>
 #include <string>

@@ -1,4 +1,4 @@
-#include "GenericNode.h"
+#include "GenericNode.hh"
 
 namespace
 {
@@ -7,5 +7,5 @@ namespace
 
 namespace ObjParser
 {
-		
+
 }

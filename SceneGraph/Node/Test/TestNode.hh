@@ -1,19 +1,19 @@
 #pragma once
-
-#include <SceneGraph/Node/SceneNode.h>
+#include <SceneGraph/Node/SceneNode.hh>
+#include <list>
 
 class TestNode : public SceneNode
 {
-protected:
-  GLfloat bdv[9];
-  GLfloat color[9];
+public:
+  static const std::vector<GLfloat> bdv;
+  std::vector<GLfloat> color;
   GLuint m_vertexBuffer;
   GLuint m_colorBuffer;
   GLuint m_programID;
   GLuint m_MatrixID;
 
 public:
-  TestNode(GLfloat xx, GLfloat xy, GLfloat xz, GLfloat yx, GLfloat yy, GLfloat yz, GLfloat zx, GLfloat zy, GLfloat zz);
+  TestNode(unsigned char rgb = 0x02);
   ~TestNode();
 
   bool VRender(Scene * pScene) override;

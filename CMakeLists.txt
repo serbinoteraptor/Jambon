@@ -39,15 +39,15 @@ set(GL_LIBS
     ${GLU_LIBRARY})
 
 file(GLOB opengl_src
-     *.cpp
-     Comm/*.cpp
-     SceneGraph/*.cpp
-     SceneGraph/Interface/*.cpp
-     SceneGraph/Scene/*.cpp
-     SceneGraph/Node/*.cpp
-     SceneGraph/Node/Test/*.cpp
-     ShaderManager/*.cpp
-     Test/*.cpp
+     *.cc
+     Comm/*.cc
+     SceneGraph/*.cc
+     SceneGraph/Interface/*.cc
+     SceneGraph/Scene/*.cc
+     SceneGraph/Node/*.cc
+     SceneGraph/Node/Test/*.cc
+     ShaderManager/*.cc
+     Test/*.cc
 )
 
 add_executable(OpenGLDemo

@@ -114,365 +114,317 @@ OpenGLDemo/fast:
 	$(MAKE) -f CMakeFiles/OpenGLDemo.dir/build.make CMakeFiles/OpenGLDemo.dir/build
 .PHONY : OpenGLDemo/fast
 
-Comm/shader.o: Comm/shader.cpp.o
+Comm/shader.o: Comm/shader.cc.o
 .PHONY : Comm/shader.o
 
 # target to build an object file
-Comm/shader.cpp.o:
-	$(MAKE) -f CMakeFiles/OpenGLDemo.dir/build.make CMakeFiles/OpenGLDemo.dir/Comm/shader.cpp.o
-.PHONY : Comm/shader.cpp.o
+Comm/shader.cc.o:
+	$(MAKE) -f CMakeFiles/OpenGLDemo.dir/build.make CMakeFiles/OpenGLDemo.dir/Comm/shader.cc.o
+.PHONY : Comm/shader.cc.o
 
-Comm/shader.i: Comm/shader.cpp.i
+Comm/shader.i: Comm/shader.cc.i
 .PHONY : Comm/shader.i
 
 # target to preprocess a source file
-Comm/shader.cpp.i:
-	$(MAKE) -f CMakeFiles/OpenGLDemo.dir/build.make CMakeFiles/OpenGLDemo.dir/Comm/shader.cpp.i
-.PHONY : Comm/shader.cpp.i
+Comm/shader.cc.i:
+	$(MAKE) -f CMakeFiles/OpenGLDemo.dir/build.make CMakeFiles/OpenGLDemo.dir/Comm/shader.cc.i
+.PHONY : Comm/shader.cc.i
 
-Comm/shader.s: Comm/shader.cpp.s
+Comm/shader.s: Comm/shader.cc.s
 .PHONY : Comm/shader.s
 
 # target to generate assembly for a file
-Comm/shader.cpp.s:
-	$(MAKE) -f CMakeFiles/OpenGLDemo.dir/build.make CMakeFiles/OpenGLDemo.dir/Comm/shader.cpp.s
-.PHONY : Comm/shader.cpp.s
+Comm/shader.cc.s:
+	$(MAKE) -f CMakeFiles/OpenGLDemo.dir/build.make CMakeFiles/OpenGLDemo.dir/Comm/shader.cc.s
+.PHONY : Comm/shader.cc.s
 
-GLManager.o: GLManager.cpp.o
+GLManager.o: GLManager.cc.o
 .PHONY : GLManager.o
 
 # target to build an object file
-GLManager.cpp.o:
-	$(MAKE) -f CMakeFiles/OpenGLDemo.dir/build.make CMakeFiles/OpenGLDemo.dir/GLManager.cpp.o
-.PHONY : GLManager.cpp.o
+GLManager.cc.o:
+	$(MAKE) -f CMakeFiles/OpenGLDemo.dir/build.make CMakeFiles/OpenGLDemo.dir/GLManager.cc.o
+.PHONY : GLManager.cc.o
 
-GLManager.i: GLManager.cpp.i
+GLManager.i: GLManager.cc.i
 .PHONY : GLManager.i
 
 # target to preprocess a source file
-GLManager.cpp.i:
-	$(MAKE) -f CMakeFiles/OpenGLDemo.dir/build.make CMakeFiles/OpenGLDemo.dir/GLManager.cpp.i
-.PHONY : GLManager.cpp.i
+GLManager.cc.i:
+	$(MAKE) -f CMakeFiles/OpenGLDemo.dir/build.make CMakeFiles/OpenGLDemo.dir/GLManager.cc.i
+.PHONY : GLManager.cc.i
 
-GLManager.s: GLManager.cpp.s
+GLManager.s: GLManager.cc.s
 .PHONY : GLManager.s
 
 # target to generate assembly for a file
-GLManager.cpp.s:
-	$(MAKE) -f CMakeFiles/OpenGLDemo.dir/build.make CMakeFiles/OpenGLDemo.dir/GLManager.cpp.s
-.PHONY : GLManager.cpp.s
+GLManager.cc.s:
+	$(MAKE) -f CMakeFiles/OpenGLDemo.dir/build.make CMakeFiles/OpenGLDemo.dir/GLManager.cc.s
+.PHONY : GLManager.cc.s
 
-SceneGraph/Node/CameraNode.o: SceneGraph/Node/CameraNode.cpp.o
+SceneGraph/Node/CameraNode.o: SceneGraph/Node/CameraNode.cc.o
 .PHONY : SceneGraph/Node/CameraNode.o
 
 # target to build an object file
-SceneGraph/Node/CameraNode.cpp.o:
-	$(MAKE) -f CMakeFiles/OpenGLDemo.dir/build.make CMakeFiles/OpenGLDemo.dir/SceneGraph/Node/CameraNode.cpp.o
-.PHONY : SceneGraph/Node/CameraNode.cpp.o
+SceneGraph/Node/CameraNode.cc.o:
+	$(MAKE) -f CMakeFiles/OpenGLDemo.dir/build.make CMakeFiles/OpenGLDemo.dir/SceneGraph/Node/CameraNode.cc.o
+.PHONY : SceneGraph/Node/CameraNode.cc.o
 
-SceneGraph/Node/CameraNode.i: SceneGraph/Node/CameraNode.cpp.i
+SceneGraph/Node/CameraNode.i: SceneGraph/Node/CameraNode.cc.i
 .PHONY : SceneGraph/Node/CameraNode.i
 
 # target to preprocess a source file
-SceneGraph/Node/CameraNode.cpp.i:
-	$(MAKE) -f CMakeFiles/OpenGLDemo.dir/build.make CMakeFiles/OpenGLDemo.dir/SceneGraph/Node/CameraNode.cpp.i
-.PHONY : SceneGraph/Node/CameraNode.cpp.i
+SceneGraph/Node/CameraNode.cc.i:
+	$(MAKE) -f CMakeFiles/OpenGLDemo.dir/build.make CMakeFiles/OpenGLDemo.dir/SceneGraph/Node/CameraNode.cc.i
+.PHONY : SceneGraph/Node/CameraNode.cc.i
 
-SceneGraph/Node/CameraNode.s: SceneGraph/Node/CameraNode.cpp.s
+SceneGraph/Node/CameraNode.s: SceneGraph/Node/CameraNode.cc.s
 .PHONY : SceneGraph/Node/CameraNode.s
 
 # target to generate assembly for a file
-SceneGraph/Node/CameraNode.cpp.s:
-	$(MAKE) -f CMakeFiles/OpenGLDemo.dir/build.make CMakeFiles/OpenGLDemo.dir/SceneGraph/Node/CameraNode.cpp.s
-.PHONY : SceneGraph/Node/CameraNode.cpp.s
+SceneGraph/Node/CameraNode.cc.s:
+	$(MAKE) -f CMakeFiles/OpenGLDemo.dir/build.make CMakeFiles/OpenGLDemo.dir/SceneGraph/Node/CameraNode.cc.s
+.PHONY : SceneGraph/Node/CameraNode.cc.s
 
-SceneGraph/Node/RootNode.o: SceneGraph/Node/RootNode.cpp.o
+SceneGraph/Node/RootNode.o: SceneGraph/Node/RootNode.cc.o
 .PHONY : SceneGraph/Node/RootNode.o
 
 # target to build an object file
-SceneGraph/Node/RootNode.cpp.o:
-	$(MAKE) -f CMakeFiles/OpenGLDemo.dir/build.make CMakeFiles/OpenGLDemo.dir/SceneGraph/Node/RootNode.cpp.o
-.PHONY : SceneGraph/Node/RootNode.cpp.o
+SceneGraph/Node/RootNode.cc.o:
+	$(MAKE) -f CMakeFiles/OpenGLDemo.dir/build.make CMakeFiles/OpenGLDemo.dir/SceneGraph/Node/RootNode.cc.o
+.PHONY : SceneGraph/Node/RootNode.cc.o
 
-SceneGraph/Node/RootNode.i: SceneGraph/Node/RootNode.cpp.i
+SceneGraph/Node/RootNode.i: SceneGraph/Node/RootNode.cc.i
 .PHONY : SceneGraph/Node/RootNode.i
 
 # target to preprocess a source file
-SceneGraph/Node/RootNode.cpp.i:
-	$(MAKE) -f CMakeFiles/OpenGLDemo.dir/build.make CMakeFiles/OpenGLDemo.dir/SceneGraph/Node/RootNode.cpp.i
-.PHONY : SceneGraph/Node/RootNode.cpp.i
+SceneGraph/Node/RootNode.cc.i:
+	$(MAKE) -f CMakeFiles/OpenGLDemo.dir/build.make CMakeFiles/OpenGLDemo.dir/SceneGraph/Node/RootNode.cc.i
+.PHONY : SceneGraph/Node/RootNode.cc.i
 
-SceneGraph/Node/RootNode.s: SceneGraph/Node/RootNode.cpp.s
+SceneGraph/Node/RootNode.s: SceneGraph/Node/RootNode.cc.s
 .PHONY : SceneGraph/Node/RootNode.s
 
 # target to generate assembly for a file
-SceneGraph/Node/RootNode.cpp.s:
-	$(MAKE) -f CMakeFiles/OpenGLDemo.dir/build.make CMakeFiles/OpenGLDemo.dir/SceneGraph/Node/RootNode.cpp.s
-.PHONY : SceneGraph/Node/RootNode.cpp.s
+SceneGraph/Node/RootNode.cc.s:
+	$(MAKE) -f CMakeFiles/OpenGLDemo.dir/build.make CMakeFiles/OpenGLDemo.dir/SceneGraph/Node/RootNode.cc.s
+.PHONY : SceneGraph/Node/RootNode.cc.s
 
-SceneGraph/Node/SceneNode.o: SceneGraph/Node/SceneNode.cpp.o
+SceneGraph/Node/SceneNode.o: SceneGraph/Node/SceneNode.cc.o
 .PHONY : SceneGraph/Node/SceneNode.o
 
 # target to build an object file
-SceneGraph/Node/SceneNode.cpp.o:
-	$(MAKE) -f CMakeFiles/OpenGLDemo.dir/build.make CMakeFiles/OpenGLDemo.dir/SceneGraph/Node/SceneNode.cpp.o
-.PHONY : SceneGraph/Node/SceneNode.cpp.o
+SceneGraph/Node/SceneNode.cc.o:
+	$(MAKE) -f CMakeFiles/OpenGLDemo.dir/build.make CMakeFiles/OpenGLDemo.dir/SceneGraph/Node/SceneNode.cc.o
+.PHONY : SceneGraph/Node/SceneNode.cc.o
 
-SceneGraph/Node/SceneNode.i: SceneGraph/Node/SceneNode.cpp.i
+SceneGraph/Node/SceneNode.i: SceneGraph/Node/SceneNode.cc.i
 .PHONY : SceneGraph/Node/SceneNode.i
 
 # target to preprocess a source file
-SceneGraph/Node/SceneNode.cpp.i:
-	$(MAKE) -f CMakeFiles/OpenGLDemo.dir/build.make CMakeFiles/OpenGLDemo.dir/SceneGraph/Node/SceneNode.cpp.i
-.PHONY : SceneGraph/Node/SceneNode.cpp.i
+SceneGraph/Node/SceneNode.cc.i:
+	$(MAKE) -f CMakeFiles/OpenGLDemo.dir/build.make CMakeFiles/OpenGLDemo.dir/SceneGraph/Node/SceneNode.cc.i
+.PHONY : SceneGraph/Node/SceneNode.cc.i
 
-SceneGraph/Node/SceneNode.s: SceneGraph/Node/SceneNode.cpp.s
+SceneGraph/Node/SceneNode.s: SceneGraph/Node/SceneNode.cc.s
 .PHONY : SceneGraph/Node/SceneNode.s
 
 # target to generate assembly for a file
-SceneGraph/Node/SceneNode.cpp.s:
-	$(MAKE) -f CMakeFiles/OpenGLDemo.dir/build.make CMakeFiles/OpenGLDemo.dir/SceneGraph/Node/SceneNode.cpp.s
-.PHONY : SceneGraph/Node/SceneNode.cpp.s
+SceneGraph/Node/SceneNode.cc.s:
+	$(MAKE) -f CMakeFiles/OpenGLDemo.dir/build.make CMakeFiles/OpenGLDemo.dir/SceneGraph/Node/SceneNode.cc.s
+.PHONY : SceneGraph/Node/SceneNode.cc.s
 
-SceneGraph/Node/Test/GenericNode.o: SceneGraph/Node/Test/GenericNode.cpp.o
+SceneGraph/Node/Test/CubeNode.o: SceneGraph/Node/Test/CubeNode.cc.o
+.PHONY : SceneGraph/Node/Test/CubeNode.o
+
+# target to build an object file
+SceneGraph/Node/Test/CubeNode.cc.o:
+	$(MAKE) -f CMakeFiles/OpenGLDemo.dir/build.make CMakeFiles/OpenGLDemo.dir/SceneGraph/Node/Test/CubeNode.cc.o
+.PHONY : SceneGraph/Node/Test/CubeNode.cc.o
+
+SceneGraph/Node/Test/CubeNode.i: SceneGraph/Node/Test/CubeNode.cc.i
+.PHONY : SceneGraph/Node/Test/CubeNode.i
+
+# target to preprocess a source file
+SceneGraph/Node/Test/CubeNode.cc.i:
+	$(MAKE) -f CMakeFiles/OpenGLDemo.dir/build.make CMakeFiles/OpenGLDemo.dir/SceneGraph/Node/Test/CubeNode.cc.i
+.PHONY : SceneGraph/Node/Test/CubeNode.cc.i
+
+SceneGraph/Node/Test/CubeNode.s: SceneGraph/Node/Test/CubeNode.cc.s
+.PHONY : SceneGraph/Node/Test/CubeNode.s
+
+# target to generate assembly for a file
+SceneGraph/Node/Test/CubeNode.cc.s:
+	$(MAKE) -f CMakeFiles/OpenGLDemo.dir/build.make CMakeFiles/OpenGLDemo.dir/SceneGraph/Node/Test/CubeNode.cc.s
+.PHONY : SceneGraph/Node/Test/CubeNode.cc.s
+
+SceneGraph/Node/Test/GenericNode.o: SceneGraph/Node/Test/GenericNode.cc.o
 .PHONY : SceneGraph/Node/Test/GenericNode.o
 
 # target to build an object file
-SceneGraph/Node/Test/GenericNode.cpp.o:
-	$(MAKE) -f CMakeFiles/OpenGLDemo.dir/build.make CMakeFiles/OpenGLDemo.dir/SceneGraph/Node/Test/GenericNode.cpp.o
-.PHONY : SceneGraph/Node/Test/GenericNode.cpp.o
+SceneGraph/Node/Test/GenericNode.cc.o:
+	$(MAKE) -f CMakeFiles/OpenGLDemo.dir/build.make CMakeFiles/OpenGLDemo.dir/SceneGraph/Node/Test/GenericNode.cc.o
+.PHONY : SceneGraph/Node/Test/GenericNode.cc.o
 
-SceneGraph/Node/Test/GenericNode.i: SceneGraph/Node/Test/GenericNode.cpp.i
+SceneGraph/Node/Test/GenericNode.i: SceneGraph/Node/Test/GenericNode.cc.i
 .PHONY : SceneGraph/Node/Test/GenericNode.i
 
 # target to preprocess a source file
-SceneGraph/Node/Test/GenericNode.cpp.i:
-	$(MAKE) -f CMakeFiles/OpenGLDemo.dir/build.make CMakeFiles/OpenGLDemo.dir/SceneGraph/Node/Test/GenericNode.cpp.i
-.PHONY : SceneGraph/Node/Test/GenericNode.cpp.i
+SceneGraph/Node/Test/GenericNode.cc.i:
+	$(MAKE) -f CMakeFiles/OpenGLDemo.dir/build.make CMakeFiles/OpenGLDemo.dir/SceneGraph/Node/Test/GenericNode.cc.i
+.PHONY : SceneGraph/Node/Test/GenericNode.cc.i
 
-SceneGraph/Node/Test/GenericNode.s: SceneGraph/Node/Test/GenericNode.cpp.s
+SceneGraph/Node/Test/GenericNode.s: SceneGraph/Node/Test/GenericNode.cc.s
 .PHONY : SceneGraph/Node/Test/GenericNode.s
 
 # target to generate assembly for a file
-SceneGraph/Node/Test/GenericNode.cpp.s:
-	$(MAKE) -f CMakeFiles/OpenGLDemo.dir/build.make CMakeFiles/OpenGLDemo.dir/SceneGraph/Node/Test/GenericNode.cpp.s
-.PHONY : SceneGraph/Node/Test/GenericNode.cpp.s
+SceneGraph/Node/Test/GenericNode.cc.s:
+	$(MAKE) -f CMakeFiles/OpenGLDemo.dir/build.make CMakeFiles/OpenGLDemo.dir/SceneGraph/Node/Test/GenericNode.cc.s
+.PHONY : SceneGraph/Node/Test/GenericNode.cc.s
 
-SceneGraph/Node/Test/ObjParser.o: SceneGraph/Node/Test/ObjParser.cpp.o
+SceneGraph/Node/Test/ObjParser.o: SceneGraph/Node/Test/ObjParser.cc.o
 .PHONY : SceneGraph/Node/Test/ObjParser.o
 
 # target to build an object file
-SceneGraph/Node/Test/ObjParser.cpp.o:
-	$(MAKE) -f CMakeFiles/OpenGLDemo.dir/build.make CMakeFiles/OpenGLDemo.dir/SceneGraph/Node/Test/ObjParser.cpp.o
-.PHONY : SceneGraph/Node/Test/ObjParser.cpp.o
+SceneGraph/Node/Test/ObjParser.cc.o:
+	$(MAKE) -f CMakeFiles/OpenGLDemo.dir/build.make CMakeFiles/OpenGLDemo.dir/SceneGraph/Node/Test/ObjParser.cc.o
+.PHONY : SceneGraph/Node/Test/ObjParser.cc.o
 
-SceneGraph/Node/Test/ObjParser.i: SceneGraph/Node/Test/ObjParser.cpp.i
+SceneGraph/Node/Test/ObjParser.i: SceneGraph/Node/Test/ObjParser.cc.i
 .PHONY : SceneGraph/Node/Test/ObjParser.i
 
 # target to preprocess a source file
-SceneGraph/Node/Test/ObjParser.cpp.i:
-	$(MAKE) -f CMakeFiles/OpenGLDemo.dir/build.make CMakeFiles/OpenGLDemo.dir/SceneGraph/Node/Test/ObjParser.cpp.i
-.PHONY : SceneGraph/Node/Test/ObjParser.cpp.i
+SceneGraph/Node/Test/ObjParser.cc.i:
+	$(MAKE) -f CMakeFiles/OpenGLDemo.dir/build.make CMakeFiles/OpenGLDemo.dir/SceneGraph/Node/Test/ObjParser.cc.i
+.PHONY : SceneGraph/Node/Test/ObjParser.cc.i
 
-SceneGraph/Node/Test/ObjParser.s: SceneGraph/Node/Test/ObjParser.cpp.s
+SceneGraph/Node/Test/ObjParser.s: SceneGraph/Node/Test/ObjParser.cc.s
 .PHONY : SceneGraph/Node/Test/ObjParser.s
 
 # target to generate assembly for a file
-SceneGraph/Node/Test/ObjParser.cpp.s:
-	$(MAKE) -f CMakeFiles/OpenGLDemo.dir/build.make CMakeFiles/OpenGLDemo.dir/SceneGraph/Node/Test/ObjParser.cpp.s
-.PHONY : SceneGraph/Node/Test/ObjParser.cpp.s
+SceneGraph/Node/Test/ObjParser.cc.s:
+	$(MAKE) -f CMakeFiles/OpenGLDemo.dir/build.make CMakeFiles/OpenGLDemo.dir/SceneGraph/Node/Test/ObjParser.cc.s
+.PHONY : SceneGraph/Node/Test/ObjParser.cc.s
 
-SceneGraph/Node/Test/TestNode.o: SceneGraph/Node/Test/TestNode.cpp.o
+SceneGraph/Node/Test/TestNode.o: SceneGraph/Node/Test/TestNode.cc.o
 .PHONY : SceneGraph/Node/Test/TestNode.o
 
 # target to build an object file
-SceneGraph/Node/Test/TestNode.cpp.o:
-	$(MAKE) -f CMakeFiles/OpenGLDemo.dir/build.make CMakeFiles/OpenGLDemo.dir/SceneGraph/Node/Test/TestNode.cpp.o
-.PHONY : SceneGraph/Node/Test/TestNode.cpp.o
+SceneGraph/Node/Test/TestNode.cc.o:
+	$(MAKE) -f CMakeFiles/OpenGLDemo.dir/build.make CMakeFiles/OpenGLDemo.dir/SceneGraph/Node/Test/TestNode.cc.o
+.PHONY : SceneGraph/Node/Test/TestNode.cc.o
 
-SceneGraph/Node/Test/TestNode.i: SceneGraph/Node/Test/TestNode.cpp.i
+SceneGraph/Node/Test/TestNode.i: SceneGraph/Node/Test/TestNode.cc.i
 .PHONY : SceneGraph/Node/Test/TestNode.i
 
 # target to preprocess a source file
-SceneGraph/Node/Test/TestNode.cpp.i:
-	$(MAKE) -f CMakeFiles/OpenGLDemo.dir/build.make CMakeFiles/OpenGLDemo.dir/SceneGraph/Node/Test/TestNode.cpp.i
-.PHONY : SceneGraph/Node/Test/TestNode.cpp.i
+SceneGraph/Node/Test/TestNode.cc.i:
+	$(MAKE) -f CMakeFiles/OpenGLDemo.dir/build.make CMakeFiles/OpenGLDemo.dir/SceneGraph/Node/Test/TestNode.cc.i
+.PHONY : SceneGraph/Node/Test/TestNode.cc.i
 
-SceneGraph/Node/Test/TestNode.s: SceneGraph/Node/Test/TestNode.cpp.s
+SceneGraph/Node/Test/TestNode.s: SceneGraph/Node/Test/TestNode.cc.s
 .PHONY : SceneGraph/Node/Test/TestNode.s
 
 # target to generate assembly for a file
-SceneGraph/Node/Test/TestNode.cpp.s:
-	$(MAKE) -f CMakeFiles/OpenGLDemo.dir/build.make CMakeFiles/OpenGLDemo.dir/SceneGraph/Node/Test/TestNode.cpp.s
-.PHONY : SceneGraph/Node/Test/TestNode.cpp.s
+SceneGraph/Node/Test/TestNode.cc.s:
+	$(MAKE) -f CMakeFiles/OpenGLDemo.dir/build.make CMakeFiles/OpenGLDemo.dir/SceneGraph/Node/Test/TestNode.cc.s
+.PHONY : SceneGraph/Node/Test/TestNode.cc.s
 
-SceneGraph/Scene/Scene.o: SceneGraph/Scene/Scene.cpp.o
+SceneGraph/Scene/Scene.o: SceneGraph/Scene/Scene.cc.o
 .PHONY : SceneGraph/Scene/Scene.o
 
 # target to build an object file
-SceneGraph/Scene/Scene.cpp.o:
-	$(MAKE) -f CMakeFiles/OpenGLDemo.dir/build.make CMakeFiles/OpenGLDemo.dir/SceneGraph/Scene/Scene.cpp.o
-.PHONY : SceneGraph/Scene/Scene.cpp.o
+SceneGraph/Scene/Scene.cc.o:
+	$(MAKE) -f CMakeFiles/OpenGLDemo.dir/build.make CMakeFiles/OpenGLDemo.dir/SceneGraph/Scene/Scene.cc.o
+.PHONY : SceneGraph/Scene/Scene.cc.o
 
-SceneGraph/Scene/Scene.i: SceneGraph/Scene/Scene.cpp.i
+SceneGraph/Scene/Scene.i: SceneGraph/Scene/Scene.cc.i
 .PHONY : SceneGraph/Scene/Scene.i
 
 # target to preprocess a source file
-SceneGraph/Scene/Scene.cpp.i:
-	$(MAKE) -f CMakeFiles/OpenGLDemo.dir/build.make CMakeFiles/OpenGLDemo.dir/SceneGraph/Scene/Scene.cpp.i
-.PHONY : SceneGraph/Scene/Scene.cpp.i
+SceneGraph/Scene/Scene.cc.i:
+	$(MAKE) -f CMakeFiles/OpenGLDemo.dir/build.make CMakeFiles/OpenGLDemo.dir/SceneGraph/Scene/Scene.cc.i
+.PHONY : SceneGraph/Scene/Scene.cc.i
 
-SceneGraph/Scene/Scene.s: SceneGraph/Scene/Scene.cpp.s
+SceneGraph/Scene/Scene.s: SceneGraph/Scene/Scene.cc.s
 .PHONY : SceneGraph/Scene/Scene.s
 
 # target to generate assembly for a file
-SceneGraph/Scene/Scene.cpp.s:
-	$(MAKE) -f CMakeFiles/OpenGLDemo.dir/build.make CMakeFiles/OpenGLDemo.dir/SceneGraph/Scene/Scene.cpp.s
-.PHONY : SceneGraph/Scene/Scene.cpp.s
+SceneGraph/Scene/Scene.cc.s:
+	$(MAKE) -f CMakeFiles/OpenGLDemo.dir/build.make CMakeFiles/OpenGLDemo.dir/SceneGraph/Scene/Scene.cc.s
+.PHONY : SceneGraph/Scene/Scene.cc.s
 
-ShaderManager/ShaderManager.o: ShaderManager/ShaderManager.cpp.o
+ShaderManager/ShaderManager.o: ShaderManager/ShaderManager.cc.o
 .PHONY : ShaderManager/ShaderManager.o
 
 # target to build an object file
-ShaderManager/ShaderManager.cpp.o:
-	$(MAKE) -f CMakeFiles/OpenGLDemo.dir/build.make CMakeFiles/OpenGLDemo.dir/ShaderManager/ShaderManager.cpp.o
-.PHONY : ShaderManager/ShaderManager.cpp.o
+ShaderManager/ShaderManager.cc.o:
+	$(MAKE) -f CMakeFiles/OpenGLDemo.dir/build.make CMakeFiles/OpenGLDemo.dir/ShaderManager/ShaderManager.cc.o
+.PHONY : ShaderManager/ShaderManager.cc.o
 
-ShaderManager/ShaderManager.i: ShaderManager/ShaderManager.cpp.i
+ShaderManager/ShaderManager.i: ShaderManager/ShaderManager.cc.i
 .PHONY : ShaderManager/ShaderManager.i
 
 # target to preprocess a source file
-ShaderManager/ShaderManager.cpp.i:
-	$(MAKE) -f CMakeFiles/OpenGLDemo.dir/build.make CMakeFiles/OpenGLDemo.dir/ShaderManager/ShaderManager.cpp.i
-.PHONY : ShaderManager/ShaderManager.cpp.i
+ShaderManager/ShaderManager.cc.i:
+	$(MAKE) -f CMakeFiles/OpenGLDemo.dir/build.make CMakeFiles/OpenGLDemo.dir/ShaderManager/ShaderManager.cc.i
+.PHONY : ShaderManager/ShaderManager.cc.i
 
-ShaderManager/ShaderManager.s: ShaderManager/ShaderManager.cpp.s
+ShaderManager/ShaderManager.s: ShaderManager/ShaderManager.cc.s
 .PHONY : ShaderManager/ShaderManager.s
 
 # target to generate assembly for a file
-ShaderManager/ShaderManager.cpp.s:
-	$(MAKE) -f CMakeFiles/OpenGLDemo.dir/build.make CMakeFiles/OpenGLDemo.dir/ShaderManager/ShaderManager.cpp.s
-.PHONY : ShaderManager/ShaderManager.cpp.s
+ShaderManager/ShaderManager.cc.s:
+	$(MAKE) -f CMakeFiles/OpenGLDemo.dir/build.make CMakeFiles/OpenGLDemo.dir/ShaderManager/ShaderManager.cc.s
+.PHONY : ShaderManager/ShaderManager.cc.s
 
-ShaderManager/shader.o: ShaderManager/shader.cpp.o
+ShaderManager/shader.o: ShaderManager/shader.cc.o
 .PHONY : ShaderManager/shader.o
 
 # target to build an object file
-ShaderManager/shader.cpp.o:
-	$(MAKE) -f CMakeFiles/OpenGLDemo.dir/build.make CMakeFiles/OpenGLDemo.dir/ShaderManager/shader.cpp.o
-.PHONY : ShaderManager/shader.cpp.o
+ShaderManager/shader.cc.o:
+	$(MAKE) -f CMakeFiles/OpenGLDemo.dir/build.make CMakeFiles/OpenGLDemo.dir/ShaderManager/shader.cc.o
+.PHONY : ShaderManager/shader.cc.o
 
-ShaderManager/shader.i: ShaderManager/shader.cpp.i
+ShaderManager/shader.i: ShaderManager/shader.cc.i
 .PHONY : ShaderManager/shader.i
 
 # target to preprocess a source file
-ShaderManager/shader.cpp.i:
-	$(MAKE) -f CMakeFiles/OpenGLDemo.dir/build.make CMakeFiles/OpenGLDemo.dir/ShaderManager/shader.cpp.i
-.PHONY : ShaderManager/shader.cpp.i
+ShaderManager/shader.cc.i:
+	$(MAKE) -f CMakeFiles/OpenGLDemo.dir/build.make CMakeFiles/OpenGLDemo.dir/ShaderManager/shader.cc.i
+.PHONY : ShaderManager/shader.cc.i
 
-ShaderManager/shader.s: ShaderManager/shader.cpp.s
+ShaderManager/shader.s: ShaderManager/shader.cc.s
 .PHONY : ShaderManager/shader.s
 
 # target to generate assembly for a file
-ShaderManager/shader.cpp.s:
-	$(MAKE) -f CMakeFiles/OpenGLDemo.dir/build.make CMakeFiles/OpenGLDemo.dir/ShaderManager/shader.cpp.s
-.PHONY : ShaderManager/shader.cpp.s
+ShaderManager/shader.cc.s:
+	$(MAKE) -f CMakeFiles/OpenGLDemo.dir/build.make CMakeFiles/OpenGLDemo.dir/ShaderManager/shader.cc.s
+.PHONY : ShaderManager/shader.cc.s
 
-Test/Mesh.o: Test/Mesh.cpp.o
-.PHONY : Test/Mesh.o
-
-# target to build an object file
-Test/Mesh.cpp.o:
-	$(MAKE) -f CMakeFiles/OpenGLDemo.dir/build.make CMakeFiles/OpenGLDemo.dir/Test/Mesh.cpp.o
-.PHONY : Test/Mesh.cpp.o
-
-Test/Mesh.i: Test/Mesh.cpp.i
-.PHONY : Test/Mesh.i
-
-# target to preprocess a source file
-Test/Mesh.cpp.i:
-	$(MAKE) -f CMakeFiles/OpenGLDemo.dir/build.make CMakeFiles/OpenGLDemo.dir/Test/Mesh.cpp.i
-.PHONY : Test/Mesh.cpp.i
-
-Test/Mesh.s: Test/Mesh.cpp.s
-.PHONY : Test/Mesh.s
-
-# target to generate assembly for a file
-Test/Mesh.cpp.s:
-	$(MAKE) -f CMakeFiles/OpenGLDemo.dir/build.make CMakeFiles/OpenGLDemo.dir/Test/Mesh.cpp.s
-.PHONY : Test/Mesh.cpp.s
-
-Test/cTriangle.o: Test/cTriangle.cpp.o
-.PHONY : Test/cTriangle.o
-
-# target to build an object file
-Test/cTriangle.cpp.o:
-	$(MAKE) -f CMakeFiles/OpenGLDemo.dir/build.make CMakeFiles/OpenGLDemo.dir/Test/cTriangle.cpp.o
-.PHONY : Test/cTriangle.cpp.o
-
-Test/cTriangle.i: Test/cTriangle.cpp.i
-.PHONY : Test/cTriangle.i
-
-# target to preprocess a source file
-Test/cTriangle.cpp.i:
-	$(MAKE) -f CMakeFiles/OpenGLDemo.dir/build.make CMakeFiles/OpenGLDemo.dir/Test/cTriangle.cpp.i
-.PHONY : Test/cTriangle.cpp.i
-
-Test/cTriangle.s: Test/cTriangle.cpp.s
-.PHONY : Test/cTriangle.s
-
-# target to generate assembly for a file
-Test/cTriangle.cpp.s:
-	$(MAKE) -f CMakeFiles/OpenGLDemo.dir/build.make CMakeFiles/OpenGLDemo.dir/Test/cTriangle.cpp.s
-.PHONY : Test/cTriangle.cpp.s
-
-Test/material.o: Test/material.cpp.o
-.PHONY : Test/material.o
-
-# target to build an object file
-Test/material.cpp.o:
-	$(MAKE) -f CMakeFiles/OpenGLDemo.dir/build.make CMakeFiles/OpenGLDemo.dir/Test/material.cpp.o
-.PHONY : Test/material.cpp.o
-
-Test/material.i: Test/material.cpp.i
-.PHONY : Test/material.i
-
-# target to preprocess a source file
-Test/material.cpp.i:
-	$(MAKE) -f CMakeFiles/OpenGLDemo.dir/build.make CMakeFiles/OpenGLDemo.dir/Test/material.cpp.i
-.PHONY : Test/material.cpp.i
-
-Test/material.s: Test/material.cpp.s
-.PHONY : Test/material.s
-
-# target to generate assembly for a file
-Test/material.cpp.s:
-	$(MAKE) -f CMakeFiles/OpenGLDemo.dir/build.make CMakeFiles/OpenGLDemo.dir/Test/material.cpp.s
-.PHONY : Test/material.cpp.s
-
-playground.o: playground.cpp.o
+playground.o: playground.cc.o
 .PHONY : playground.o
 
 # target to build an object file
-playground.cpp.o:
-	$(MAKE) -f CMakeFiles/OpenGLDemo.dir/build.make CMakeFiles/OpenGLDemo.dir/playground.cpp.o
-.PHONY : playground.cpp.o
+playground.cc.o:
+	$(MAKE) -f CMakeFiles/OpenGLDemo.dir/build.make CMakeFiles/OpenGLDemo.dir/playground.cc.o
+.PHONY : playground.cc.o
 
-playground.i: playground.cpp.i
+playground.i: playground.cc.i
 .PHONY : playground.i
 
 # target to preprocess a source file
-playground.cpp.i:
-	$(MAKE) -f CMakeFiles/OpenGLDemo.dir/build.make CMakeFiles/OpenGLDemo.dir/playground.cpp.i
-.PHONY : playground.cpp.i
+playground.cc.i:
+	$(MAKE) -f CMakeFiles/OpenGLDemo.dir/build.make CMakeFiles/OpenGLDemo.dir/playground.cc.i
+.PHONY : playground.cc.i
 
-playground.s: playground.cpp.s
+playground.s: playground.cc.s
 .PHONY : playground.s
 
 # target to generate assembly for a file
-playground.cpp.s:
-	$(MAKE) -f CMakeFiles/OpenGLDemo.dir/build.make CMakeFiles/OpenGLDemo.dir/playground.cpp.s
-.PHONY : playground.cpp.s
+playground.cc.s:
+	$(MAKE) -f CMakeFiles/OpenGLDemo.dir/build.make CMakeFiles/OpenGLDemo.dir/playground.cc.s
+.PHONY : playground.cc.s
 
 # Help Target
 help:
@@ -498,6 +450,9 @@ help:
 	@echo "... SceneGraph/Node/SceneNode.o"
 	@echo "... SceneGraph/Node/SceneNode.i"
 	@echo "... SceneGraph/Node/SceneNode.s"
+	@echo "... SceneGraph/Node/Test/CubeNode.o"
+	@echo "... SceneGraph/Node/Test/CubeNode.i"
+	@echo "... SceneGraph/Node/Test/CubeNode.s"
 	@echo "... SceneGraph/Node/Test/GenericNode.o"
 	@echo "... SceneGraph/Node/Test/GenericNode.i"
 	@echo "... SceneGraph/Node/Test/GenericNode.s"
@@ -516,15 +471,6 @@ help:
 	@echo "... ShaderManager/shader.o"
 	@echo "... ShaderManager/shader.i"
 	@echo "... ShaderManager/shader.s"
-	@echo "... Test/Mesh.o"
-	@echo "... Test/Mesh.i"
-	@echo "... Test/Mesh.s"
-	@echo "... Test/cTriangle.o"
-	@echo "... Test/cTriangle.i"
-	@echo "... Test/cTriangle.s"
-	@echo "... Test/material.o"
-	@echo "... Test/material.i"
-	@echo "... Test/material.s"
 	@echo "... playground.o"
 	@echo "... playground.i"
 	@echo "... playground.s"

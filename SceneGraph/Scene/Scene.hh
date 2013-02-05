@@ -1,8 +1,8 @@
 #pragma once
 
-#include <SceneGraph/Node/CameraNode.h>
-#include <SceneGraph/Node/RootNode.h>
-#include <SceneGraph/Node/Test/TestNode.h>
+#include <SceneGraph/Node/CameraNode.hh>
+#include <SceneGraph/Node/RootNode.hh>
+#include <SceneGraph/Node/Test/TestNode.hh>
 
 
 class Scene
@@ -14,8 +14,6 @@ public:
 private:
   CameraNode  _camera;
   RootNode    _root_node;
-  // _last_added_node point on the last element which will be detroyed.
-  ISceneNode* _last_added_node;
 
 public :
   CameraNode & GetCamera (void) { return _camera; }
@@ -23,6 +21,13 @@ public :
   bool Update(const double elapsedTime);
   bool AddNode(ISceneNode * node);
   bool AddNode(std::string const& name);
-
-  ISceneNode * GetLastAddedNode () { assert(this->_last_added_node != NULL); return _last_added_node; }
 };
+
+namespace factory
+{
+  TestNode*
+  newTestNode(unsigned char rgb);
+
+  TestNode*
+  addTestNode(Scene& sc, unsigned char rgb);
+}

@@ -1,6 +1,6 @@
 #pragma once
 
-#include <GLHeaders.h>
+#include <GLHeaders.hh>
 
 // Forwards.
 class Scene;
@@ -22,7 +22,7 @@ public:
   virtual bool VPostRender(Scene *pScene) = 0;
 
   virtual const SceneNodeProperties *const VGetPorps() const = 0;
-  virtual bool VAddChild(ISceneNode *kik) = 0;
+  virtual bool VAddChild(ISceneNode *kid) = 0;
   //	Transformations.
   virtual void VSetTransform(const glm::mat4 & to) = 0;
   virtual void VRotate(GLfloat angle, const glm::detail::tvec3<GLfloat> &v) = 0;

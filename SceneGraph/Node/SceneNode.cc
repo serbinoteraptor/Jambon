@@ -1,9 +1,15 @@
-#include "SceneNode.h"
+#include "SceneNode.hh"
+#include "log.hh"
+
+
+SceneNode:: ~SceneNode()
+{
+}
 
 void SceneNode::VOnUpdate(Scene * pScene, const double elapsedTime)
 {
-  SceneNodeList::const_iterator it = m_Children.begin();
-  SceneNodeList::const_iterator itEnd = m_Children.end();
+  SceneNodeList::const_iterator it = m_children.begin();
+  SceneNodeList::const_iterator itEnd = m_children.end();
 
   while(it != itEnd)
   {
@@ -20,7 +26,7 @@ bool SceneNode::VIsVisible(Scene * pScene) const
 
 bool SceneNode::VPreRender(Scene * pScene)
 {
-  //glUseProgram(m_Props.m_Shader);
+  //glUseProgram(m_Props.m_shader);
 
   return true;
 }
@@ -32,8 +38,8 @@ bool SceneNode::VRender(Scene * pScene)
 
 bool SceneNode::VRenderChildren(Scene * pScene)
 {
-  SceneNodeList::const_iterator it = m_Children.begin();
-  SceneNodeList::const_iterator itEnd = m_Children.end();
+  SceneNodeList::const_iterator it = m_children.begin();
+  SceneNodeList::const_iterator itEnd = m_children.end();
 
   while (it != itEnd)
   {
@@ -51,13 +57,16 @@ bool SceneNode::VRenderChildren(Scene * pScene)
   return true;
 }
 
-bool SceneNode::VPostRender(Scene * pScene)
+bool
+SceneNode::VAddChild(ISceneNode* kid)
 {
+  this->m_children.push_back(kid);
+
   return true;
 }
 
-bool SceneNode::VAddChild(ISceneNode * kid)
+
+bool SceneNode::VPostRender(Scene * pScene)
 {
-  m_Children.push_back(kid);
   return true;
 }

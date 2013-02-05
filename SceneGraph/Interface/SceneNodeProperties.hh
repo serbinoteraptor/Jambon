@@ -1,7 +1,7 @@
 #pragma once
-#include <GLHeaders.h>
-#include "ShaderManager/shader.hpp"
-
+#include <GLHeaders.hh>
+#include "ShaderManager/shader.hh"
+#include "log.hh"
 class SceneNode;
 
 #include <string>
@@ -28,7 +28,7 @@ protected :
   std::string m_Name;
   glm::mat4	m_Model;
   RenderPass	m_RenderPass;
-  GLuint		m_Shader;
+  GLuint	m_Shader;
 
 public :
   //	Getters.

@@ -1,6 +1,6 @@
 #pragma once
 
-#include "SceneGraph/Node/SceneNode.h"
+#include "SceneGraph/Node/SceneNode.hh"
 
 class RootNode : public SceneNode
 {

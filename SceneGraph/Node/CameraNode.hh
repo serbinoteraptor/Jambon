@@ -1,7 +1,7 @@
 #pragma once
 
-#include <GLHeaders.h>
-#include "SceneGraph/Node/SceneNode.h"
+#include <GLHeaders.hh>
+#include "SceneGraph/Node/SceneNode.hh"
 
 class CameraNode : public SceneNode
 {
@@ -33,14 +33,12 @@ public :
   //XXX: Add setters to persp, ratio, near, far.
   virtual void VOnUpdate(Scene * pScene, const double elapsedTime);
 
-  //	Rendering methods.
+  //	Rendering me.hhods.
   virtual bool VIsVisible(Scene * pScene) { return m_bIsActive; }
   virtual bool VPreRender(Scene * pScene) { return true; }
   virtual bool VRender(Scene * pScene) { return true; }
-  virtual bool VRenderChildren(Scene * pScene) { return true; }
   virtual bool VPostRender(Scene * pScene) { return true; }
 
-  virtual bool VAddChild(ISceneNode * kik) { return false; }
   virtual void VScale(const glm::detail::tvec3<GLfloat> &v) { return; }
 
   virtual ~CameraNode() {};

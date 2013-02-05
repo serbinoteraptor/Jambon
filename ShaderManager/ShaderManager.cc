@@ -1,4 +1,4 @@
-#include "ShaderManager.h"
+#include "ShaderManager.hh"
 
 ShaderManager * ShaderManager::m_pManager = NULL;
 
